@@ -20,11 +20,11 @@ import (
 	"context"
 	"path"
 
-	"github.com/chaosblade-io/chaosblade-spec-go/channel"
-	"github.com/chaosblade-io/chaosblade-spec-go/spec"
+	"github.com/lomoonmoonbird/chaosblade-spec-go/channel"
+	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
 	"github.com/sirupsen/logrus"
 
-	"github.com/chaosblade-io/chaosblade-exec-cplus/common"
+	"github.com/lomoonmoonbird/chaosblade-exec-cplus/common"
 )
 
 type VariableModifiedActionSpec struct {
