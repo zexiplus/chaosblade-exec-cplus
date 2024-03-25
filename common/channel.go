@@ -24,7 +24,7 @@ import (
 )
 
 type AsyncChannel struct {
-	// localChannel channel.OsChannel
+	localChannel spec.Channel
 }
 
 func NewAsyncChannel() spec.Channel {
