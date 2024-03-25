@@ -23,9 +23,9 @@ import (
 	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
 )
 
-// type AsyncChannel struct {
-// 	localChannel channel.OsChannel
-// }
+type AsyncChannel struct {
+	localChannel channel.OsChannel
+}
 
 func NewAsyncChannel() spec.Channel {
 	return &AsyncChannel{
