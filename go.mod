@@ -4,8 +4,8 @@ go 1.20
 
 require (
 	github.com/sirupsen/logrus v1.4.2
-	// github.com/spencercjh/chaosblade-spec-go branch: 456
-	// github.com/spencercjh/chaosblade-spec-go v0.0.0-20240308095430-2bd75640f890
+	// github.com/lomoonmoonbird/chaosblade-spec-go branch: 456
+	// github.com/lomoonmoonbird/chaosblade-spec-go v0.0.0-20240308095430-2bd75640f890
 	github.com/lomoonmoonbird/chaosblade-spec-go v1.7.0
 
 )
