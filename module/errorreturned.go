@@ -20,11 +20,11 @@ import (
 	"context"
 	"path"
 
-	"github.com/lomoonmoonbird/chaosblade-spec-go/channel"
-	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
 	"github.com/sirupsen/logrus"
+	"github.com/spencercjh/chaosblade-spec-go/channel"
+	"github.com/spencercjh/chaosblade-spec-go/spec"
 
-	"github.com/lomoonmoonbird/chaosblade-exec-cplus/common"
+	"github.com/chaosblade-io/chaosblade-exec-cplus/common"
 )
 
 type ErrorReturnedActionSpec struct {
@@ -89,7 +89,7 @@ func (e *ErrorReturnedExecutor) Exec(uid string, ctx context.Context, model *spe
 	if err != nil {
 		logrus.Warnf("get pids by %s process name err, %v", processName, err)
 	}
-	localChannel := common.NewAsyncChannel()
+	localChannel := channel.NewLocalChannel()
 	if pids == nil || len(pids) == 0 {
 		args := buildArgs([]string{
 			model.ActionFlags["fileLocateAndName"],

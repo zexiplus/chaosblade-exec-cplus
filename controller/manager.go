@@ -19,9 +19,9 @@ package controller
 import (
 	"sync"
 
-	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
+	"github.com/spencercjh/chaosblade-spec-go/spec"
 
-	"github.com/lomoonmoonbird/chaosblade-exec-cplus/module"
+	"github.com/chaosblade-io/chaosblade-exec-cplus/module"
 )
 
 type ExpManager struct {
