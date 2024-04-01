@@ -19,7 +19,7 @@ package controller
 import (
 	"sync"
 
-	"github.com/spencercjh/chaosblade-spec-go/spec"
+	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
 
 	"github.com/chaosblade-io/chaosblade-exec-cplus/module"
 )

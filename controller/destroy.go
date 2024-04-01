@@ -23,9 +23,9 @@ import (
 	"path"
 	"strings"
 
+	"github.com/lomoonmoonbird/chaosblade-spec-go/channel"
+	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
 	"github.com/sirupsen/logrus"
-	"github.com/spencercjh/chaosblade-spec-go/channel"
-	"github.com/spencercjh/chaosblade-spec-go/spec"
 
 	"github.com/chaosblade-io/chaosblade-exec-cplus/common"
 )
