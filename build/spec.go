@@ -23,7 +23,7 @@ import (
 	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
 	"github.com/lomoonmoonbird/chaosblade-spec-go/util"
 
-	"github.com/chaosblade-io/chaosblade-exec-cplus/module"
+	"github.com/lomoonmoonbird/chaosblade-exec-cplus/module"
 )
 
 func main() {

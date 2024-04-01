@@ -21,7 +21,7 @@ import (
 
 	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
 
-	"github.com/chaosblade-io/chaosblade-exec-cplus/module"
+	"github.com/lomoonmoonbird/chaosblade-exec-cplus/module"
 )
 
 type ExpManager struct {
