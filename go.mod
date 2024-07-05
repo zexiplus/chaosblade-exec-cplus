@@ -1,12 +1,12 @@
-module github.com/lomoonmoonbird/chaosblade-exec-cplus
+module github.com/zexiplus/chaosblade-exec-cplus
 
 go 1.20
 
 require (
 	github.com/sirupsen/logrus v1.4.2
-	// github.com/lomoonmoonbird/chaosblade-spec-go branch: 456
-	// github.com/lomoonmoonbird/chaosblade-spec-go v0.0.0-20240308095430-2bd75640f890
-	github.com/lomoonmoonbird/chaosblade-spec-go v1.7.0
+	// github.com/zexiplus/chaosblade-spec-go branch: 456
+	// github.com/zexiplus/chaosblade-spec-go v0.0.0-20240308095430-2bd75640f890
+	github.com/zexiplus/chaosblade-spec-go v1.7.0
 
 )
 
@@ -22,4 +22,4 @@ require (
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
 
-replace github.com/lomoonmoonbird/chaosblade-spec-go => /home/chaosblade/chaosblade-spec-go
+replace github.com/zexiplus/chaosblade-spec-go => /home/chaosblade/chaosblade-spec-go

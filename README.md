@@ -6,7 +6,7 @@
 ## Introduction
 The project is a chaosblade executor based on [GDB] for chaos 
 experiments on c++ applications. The drill can be implemented through the blade cli, see 
-[chaosblade](https://github.com/lomoonmoonbird/chaosblade) project for details.
+[chaosblade](https://github.com/zexiplus/chaosblade) project for details.
 
 
 ## Compiling
@@ -36,11 +36,11 @@ We welcome every contribution, even if it is just a punctuation. See details of 
 
 
 ## Bugs and Feedback
-For bug report, questions and discussions please submit [GitHub Issues](https://github.com/lomoonmoonbird/chaosblade-exec-cplus/issues).
+For bug report, questions and discussions please submit [GitHub Issues](https://github.com/zexiplus/chaosblade-exec-cplus/issues).
 
 Contact us: chaosblade.io.01@gmail.com
 
-Gitter room: [chaosblade community](https://gitter.im/lomoonmoonbird/community)
+Gitter room: [chaosblade community](https://gitter.im/zexiplus/community)
 
 
 ## License

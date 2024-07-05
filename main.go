@@ -26,10 +26,10 @@ import (
 	"path"
 	"time"
 
-	"github.com/lomoonmoonbird/chaosblade-spec-go/channel"
+	"github.com/zexiplus/chaosblade-spec-go/channel"
 
-	"github.com/lomoonmoonbird/chaosblade-exec-cplus/common"
-	"github.com/lomoonmoonbird/chaosblade-exec-cplus/controller"
+	"github.com/zexiplus/chaosblade-exec-cplus/common"
+	"github.com/zexiplus/chaosblade-exec-cplus/controller"
 )
 
 type Config struct {

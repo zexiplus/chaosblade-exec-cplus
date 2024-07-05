@@ -23,11 +23,11 @@ import (
 	"path"
 	"strings"
 
-	"github.com/lomoonmoonbird/chaosblade-spec-go/channel"
-	"github.com/lomoonmoonbird/chaosblade-spec-go/spec"
+	"github.com/zexiplus/chaosblade-spec-go/channel"
+	"github.com/zexiplus/chaosblade-spec-go/spec"
 	"github.com/sirupsen/logrus"
 
-	"github.com/lomoonmoonbird/chaosblade-exec-cplus/common"
+	"github.com/zexiplus/chaosblade-exec-cplus/common"
 )
 
 const DestroyName = "destroy"
